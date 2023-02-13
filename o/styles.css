@@ -7,7 +7,7 @@
   
   .navbar {
     background: #d6d6d6;
-    height: 70px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,7 @@
   
   .navbar__item {
     height: 80px;
+    font-size: 40px;
   }
   
   .navbar__links {
