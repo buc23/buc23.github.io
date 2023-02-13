@@ -170,7 +170,7 @@
   
   /* Main Content CSS */
   .main {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
   }
   
   .main__container {
@@ -179,7 +179,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 40vh;
+    height: 20vh;
     background-color: #f8f8f8;
     z-index: 1;
     width: 100%;
@@ -194,7 +194,7 @@
   }
   
   .main__content h1 {
-    font-size: 40px;
+    font-size: 60px;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #1b1b1b 0%, #707070 100%);
     background-size: 100%;
@@ -204,9 +204,6 @@
     -moz-text-fill-color: transparent;
   }
   
-
-
- 
 
   
   /* Mobile Responsive */
@@ -221,16 +218,11 @@
       height: 90vh;
     }
   
-
-  
     .main__content h1 {
       font-size: 2.5rem;
       margin-top: 2rem;
     }
   
-    .main__content h2 {
-      font-size: 3rem;
-    }
   
     .main__content p {
       margin-top: 1rem;
@@ -264,7 +256,7 @@
     background: #f8f8f8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     height: 100vh;
   }
@@ -273,12 +265,8 @@
     background-color: #f8f8f8;
     background-image: linear-gradient(
       to right,
-      #000000 0%,
-      #161515 0%,
-      #4d4544 21%,
-      #534a49 52%,
-      #5a4a4d 78%,
-      #634852 100%
+      #1a1919 0%,
+      #4d3b42 100%
     );
     background-size: 100%;
     -webkit-background-clip: text;
@@ -293,35 +281,34 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   
-  .services__card {
-    margin: 1rem;
-    height: 525px;
-    width: 400px;
-    border-radius: 4px;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(17, 17, 17, 0.6) 100%
-      ),
-      url('/images/pic3.jpg');
-    background-size: cover;
-    position: relative;
-    color: #fff;
+  .services__links{
+    color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 100px;
+    font-size: 2rem;
+  }
+
+  .services__links:hover{
+    color: #3e1e97;
   }
   
-  .services__card:before {
-    opacity: 0.2;
-  }
-  
-  .services__card:nth-child(2) {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(17, 17, 17, 0.9) 100%
-      ),
-      url('/images/pic4.jpg');
+  .services__text{
+    color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #222222;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
   }
   
 
