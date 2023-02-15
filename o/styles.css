@@ -186,13 +186,13 @@ body {
 
   .main__content h1 {
     font-size: 60px;
-    background-image: linear-gradient(to right, #181818 0%, #424242 0%);
+    background-image: linear-gradient(to right, #181818 0%, #646464 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .main__content h1:hover{
-    background-image: linear-gradient(to right, #280a5f 0%, var(--hover-color) 0%);
+    background-image: linear-gradient(to right, #280a5f 0%, var(--hover-color) 100%);
   }
 
   
