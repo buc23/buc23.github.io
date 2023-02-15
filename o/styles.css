@@ -182,8 +182,18 @@ body {
     padding-right: 50px;
     padding-left: 50px;
   }
+
+
+  .main__content h1 {
+    font-size: 60px;
+    background-image: linear-gradient(to right, #181818 0%, #424242 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   
-  
+  .main__content h1:hover{
+    background-image: linear-gradient(to right, #280a5f 0%, var(--hover-color) 0%);
+  }
 
   
   /* Mobile Responsive */
@@ -195,24 +205,18 @@ body {
       justify-self: center;
       width: 100%;
       margin: 0 auto;
-      height: 20vh;
     }
   
     .main__content h1 {
-      font-size: 2.5rem;
-      margin-top: 2rem;
+      font-size: 60px;
+      margin-top: 1px;
     }
   
-  
-    .main__content p {
-      margin-top: 1rem;
-      font-size: 1.5rem;
-    }
   }
   
   @media screen and (max-width: 480px) {
     .main__content h1 {
-      font-size: 2rem;
+      font-size: 100px;
       margin-top: 1rem;
     }
   
@@ -254,8 +258,7 @@ body {
     font-size: 2.5rem;
   }
   
-  .services__container {
-  }
+
   
   .services__links{
     color: var(--color);
@@ -276,18 +279,31 @@ body {
   
   .services__text{
     color: var(--color);
-    display: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--bg2-color);
     margin: 50px;
     padding: 15px;
     border-radius: 10px;
   }
   
+  .services__text h2{
+    font-size: 2.5rem;
+  }
+  .services__text h3{
+    font-size: 2rem;
+  }
 
+  .download{
+    text-decoration: none;
+    margin-top: 50px;
+    color: var(--color)
+  }
+
+  .download:hover{
+    color: var(--hover-color)
+  }
   
   @media screen and (max-width: 960px) {
     .services {
