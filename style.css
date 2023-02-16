@@ -10,4 +10,5 @@ body {
     color: var(--my-color); 
     position: fixed;
     z-index: -1;
+
 }

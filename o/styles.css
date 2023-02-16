@@ -298,11 +298,20 @@ body {
   .download{
     text-decoration: none;
     margin-top: 50px;
-    color: var(--color)
+    color: var(--color);
+    padding: 5px;
+    border-width: 3px;
+    border-color: var(--bg1-color);
+    border-style: solid;
+    border-radius: 10px;
   }
 
   .download:hover{
-    color: var(--hover-color)
+    color: var(--hover-color);
+    border-width: 6px;
+    border-color: var(--hover-color);
+    font-weight: 900;
+    padding: 7px;
   }
   
   @media screen and (max-width: 960px) {
