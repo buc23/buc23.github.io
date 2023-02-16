@@ -955,8 +955,7 @@ body {
 .work--lockup .slider--item {
     position: absolute;
     display: none;
-    text-align: center;
-    text-decoration: none;
+    text-align: center
 }
 
 .work--lockup .slider--item a {
