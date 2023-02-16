@@ -796,13 +796,14 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
+    font-size: 17px;  
 }
 
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #c7c7c7;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -812,7 +813,7 @@ body {
 }
 
 .intro--options h3 {
-    font-size: 16px;
+    font-size: 20px; 
     text-transform: uppercase
 }
 
