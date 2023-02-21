@@ -514,6 +514,10 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.content--image{
+    width: 100%;
+}
+
 
 .content h2{
     text-transform: uppercase;
