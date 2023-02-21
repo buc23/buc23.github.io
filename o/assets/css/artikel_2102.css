@@ -519,6 +519,9 @@ body {
 }
 
 
+.content--image{
+    width: 100%;
+}
 .content h2{
     text-transform: uppercase;
     font-size: 30px;
